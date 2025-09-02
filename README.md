@@ -24,7 +24,6 @@ This repository uses datasets consistent with those described in:
   - `Douban_book_R2.csv` + `Douban_movie_R.csv` → Douban Book / Douban Movie subset  
   - `Douban_music_R.csv` + `Douban_book_R2.csv` → Douban Music / Douban Book subset  
 
-Thus, the dataset file names in this repository **directly correspond to the subset numbering and naming used in Tables 2 and 3 of the paper**, ensuring reproducibility.
 
 ---
 
