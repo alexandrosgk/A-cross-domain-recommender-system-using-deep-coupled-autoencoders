@@ -5,9 +5,26 @@ This repository introduces two **coupled autoencoder-based deep learning methods
 
 ---
 
-## 📂 Dataset
+## 📂 Datasets
 
-- [Amazon Review Dataset](https://nijianmo.github.io/amazon/index.html) ([Mirror link](https://drive.google.com/drive/folders/1olhKBNVzcfkS2g4E5zdbmlfuo-7G-Edd?usp=sharing))
+This repository uses datasets consistent with those described in:  
+**A. Gkillas and D. Kosmopoulos, "A cross-domain recommender system using deep coupled autoencoders," ACM Transactions on Recommender Systems, 2025.**
+
+- **Dataset**: [Main Link](https://nijianmo.github.io/amazon/index.html) · [Mirror](https://drive.google.com/drive/folders/1olhKBNVzcfkS2g4E5zdbmlfuo-7G-Edd?usp=sharing)
+
+- **MovieLens & Netflix Subsets** (as reported in *Table 2* of the manuscript).  
+  The file names in this repository match exactly the subset numbering in the paper:  
+  - `movielens_data_subsets_no1.csv` + `netflix_data_subsets_no1.csv` → Subset No. 1  
+  - `movielens_data_subsets_no2.csv` + `netflix_data_subsets_no2.csv` → Subset No. 2  
+  - `movielens_data_subsets_no3.csv` + `netflix_data_subsets_no3.csv` → Subset No. 3  
+  - `movielens_data_subsets_no4.csv` + `netflix_data_subsets_no4.csv` → Subset No. 4  
+
+- **Douban Subsets** (as reported in *Table 3* of the manuscript).  
+  The file names also follow the same naming convention:  
+  - `Douban_book_R2.csv` + `Douban_movie_R.csv` → Douban Book / Douban Movie subset  
+  - `Douban_music_R.csv` + `Douban_book_R2.csv` → Douban Music / Douban Book subset  
+
+Thus, the dataset file names in this repository **directly correspond to the subset numbering and naming used in Tables 2 and 3 of the paper**, ensuring reproducibility.
 
 ---
 
