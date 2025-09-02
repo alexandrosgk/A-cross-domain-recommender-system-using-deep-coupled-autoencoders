@@ -10,7 +10,7 @@ This repository introduces two **coupled autoencoder-based deep learning methods
 This repository uses datasets consistent with those described in:  
 **A. Gkillas and D. Kosmopoulos, "A cross-domain recommender system using deep coupled autoencoders," ACM Transactions on Recommender Systems, 2025.**
 
-- **Dataset**: [Main Link](https://nijianmo.github.io/amazon/index.html) · [Mirror](https://drive.google.com/drive/folders/1olhKBNVzcfkS2g4E5zdbmlfuo-7G-Edd?usp=sharing)
+- **Dataset**: [Main Link](https://drive.google.com/drive/folders/1olhKBNVzcfkS2g4E5zdbmlfuo-7G-Edd?usp=sharing)
 
 - **MovieLens & Netflix Subsets** (as reported in *Table 2* of the manuscript).  
   The file names in this repository match exactly the subset numbering in the paper:  
